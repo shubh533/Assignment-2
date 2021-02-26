@@ -23,7 +23,6 @@ import com.example.myapplication.adapter.GridDataAdapter;
 import com.example.myapplication.adapter.ProductListAdapter;
 import com.example.myapplication.model.GridDataModel;
 import com.example.myapplication.model.ProductListModel;
-import com.example.myapplication.utils.ItemDecorationAlbumColumns;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -93,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
 //            Grid Items
-
             GridDataAdapter gridDataAdapter = new GridDataAdapter(MainActivity.this,gridDataModels);
             gridLayoutManager = new GridLayoutManager(getApplicationContext(),2);
             gridLayoutManager.setSpanCount(column_count);
@@ -108,8 +106,6 @@ public class MainActivity extends AppCompatActivity {
             linearLayoutManager = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.VERTICAL, false);
             rv_list.setLayoutManager(linearLayoutManager);
             rv_list.setAdapter(productListAdapter);
-
-
             Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.grid_divider);
             rv_list.addItemDecoration(new DividerItemDecoration(dividerDrawable));
 
@@ -118,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        Glide.with(context).asBitmap().load(image_url).into(new SimpleTarget<Bitmap>() {
+        Glide.with(MainActivity.this).asBitmap().load(image_url).into(new SimpleTarget<Bitmap>() {
             @Override
             public void onResourceReady(@NonNull Bitmap resource, @Nullable Transition<? super Bitmap> transition) {
                 int width = adjust_image.getMeasuredWidth();
