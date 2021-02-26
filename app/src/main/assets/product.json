@@ -1,0 +1,54 @@
+{
+  "status": 200,
+  "message": "List Data",
+  "object": {
+    "image_url": "https://www.eppi-online.com/wp-content/uploads/2018/10/eppi125_Slider_965x355.jpg",
+    "grid_items_column_count": 2 ,
+    "grid_items_list": [
+      {
+        "item_id": "1",
+        "item_name": "Grocery",
+        "item_image": "https://www.pngfreeimages.com/wp-content/uploads/2020/06/GROCERY-PNG-IMAGES-7.png"
+      },
+      {
+        "item_id": "2",
+        "item_name": "Personal Care",
+        "item_image": "https://www.clipartkey.com/mpngs/m/111-1110124_personal-care-png-personal-care-products-png.png"
+      },
+      {
+        "item_id": "3",
+        "item_name": "Footwear",
+        "item_image": "https://images-na.ssl-images-amazon.com/images/I/71D9ImsvEtL._UL1500_.jpg"
+      }
+    ],
+    "product_list_items": [
+      {
+        "item_id": "01",
+        "item_name": "Fortune Sunlite Refined Sunflower Oil : 1 LITRE",
+        "item_image": "https://images-na.ssl-images-amazon.com/images/I/51TH5xE%2B2sL.jpg",
+        "item_marked_price": 150,
+        "item_selling_price": 145,
+        "item_type_veg_nonveg": 0,
+        "item_quantity": "1L"
+      },
+      {
+        "item_id": "02",
+        "item_name": "Fortune Sunlite Refined Sunflower Oil : 1 LITRE",
+        "item_image": "https://images-na.ssl-images-amazon.com/images/I/51TH5xE%2B2sL.jpg",
+        "item_marked_price": 150,
+        "item_selling_price": 145,
+        "item_type_veg_nonveg": 0,
+        "item_quantity": "1L"
+      },
+      {
+        "item_id": "03",
+        "item_name": "Fortune Sunlite Refined Sunflower Oil : 1 LITRE",
+        "item_image": "https://images-na.ssl-images-amazon.com/images/I/51TH5xE%2B2sL.jpg",
+        "item_marked_price": 150,
+        "item_selling_price": 145,
+        "item_type_veg_nonveg": 0,
+        "item_quantity": "1L"
+      }
+    ]
+  }
+}
