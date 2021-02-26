@@ -3,7 +3,7 @@
   "message": "List Data",
   "object": {
     "image_url": "https://www.eppi-online.com/wp-content/uploads/2018/10/eppi125_Slider_965x355.jpg",
-    "grid_items_column_count": 2 ,
+    "grid_items_column_count": 3,
     "grid_items_list": [
       {
         "item_id": "1",
